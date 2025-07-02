@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rags to Rugs Initiative - Retasify</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+<body class="font-sans bg-[#FAF5EF] min-h-screen">
+    <!-- Header -->
+    <header class="bg-[#48583B] p-4 md:px-8 flex items-center justify-between">
+        <div class="flex items-center gap-8">
+            <img src="./images/RetasifyLogo.svg" alt="Retasify Logo" class="h-12 w-auto bg-white p-2 px-8 rounded-full ml-20">
+            
+            <nav class="hidden md:flex items-center gap-6 ml-5">
+                <a href="#" class="text-white hover:text-[#F4B840] transition-colors">Categories</a>
+                <a href="#" class="text-[#F4B840] border-b-2 border-[#F4B840] pb-1 transition-colors">Donate/Pickup</a>
+                <a href="#" class="text-white hover:text-[#F4B840] transition-colors">Upcycle</a>
+            </nav>
+        </div>
+        
+        <div class="flex-1 max-w-md mx-8 hidden md:block">
+            <div class="relative">
+                <input type="text" placeholder="Search keywords" class="w-full px-4 py-2 rounded-full border border-gray-500 focus:outline-none focus:ring-2 focus:ring-[#F4B840] bg-white">
+                <button class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div class="flex items-center gap-3">
+            <button class="p-2 text-white hover:text-[#F4B840] transition-colors">
+                <i class="fas fa-phone"></i>
+            </button>
+            <button class="p-2 text-white hover:text-[#F4B840] transition-colors">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button class="p-2 text-white hover:text-[#F4B840] transition-colors">
+                <i class="fas fa-bell"></i>
+            </button>
+            <a href="loginBuyer.html" class="bg-[#F4B840] text-white px-6 py-2 rounded-full hover:bg-orange-500 transition-colors text-sm font-medium">Sign In</a>
+            <button class="p-2 text-white hover:text-[#F4B840] transition-colors">
+                <i class="fas fa-user"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="px-8 md:px-16 py-8">
+        <div class="max-w-7xl mx-auto">
+            <!-- Back Button -->
+            <div class="mb-8">
+                <button class="flex items-center gap-2 text-gray-600 hover:text-[#F4B840] transition-colors">
+                    <i class="fas fa-chevron-left"></i>
+                    <span>Back</span>
+                </button>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                <!-- Main Content Column -->
+                <div class="lg:col-span-2 space-y-8">
+                    <!-- Hero Image -->
+                    <div class="relative bg-[#A4B494] rounded-3xl overflow-hidden h-96 flex items-center justify-center">
+                        <div class="text-center">
+                            <div class="w-20 h-20 bg-[#8A9B7A] rounded-2xl flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-image text-white text-2xl"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Initiative Info -->
+                    <div class="space-y-6">
+                        <div class="flex items-center justify-between">
+                            <p class="text-sm text-gray-500">Created on June 29, 2025</p>
+                            <button class="bg-[#F4B840] text-white px-6 py-3 rounded-full font-medium hover:bg-orange-500 transition-colors">
+                                Donate Now
+                            </button>
+                        </div>
+
+                        <h1 class="text-4xl font-bold text-gray-800">Rags to Rugs Initiative</h1>
+
+                        <!-- Description -->
+                        <div class="prose max-w-none">
+                            <p class="text-gray-600 leading-relaxed mb-6">
+                                Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 
+                                45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney 
+                                College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum 
+                                passage, and going through the cites of the word in classical literature, discovered the 
+                                undoubtable source. Lorem Ipsum comes from sections 6.32 and 6.33 of "de Finibus Bonorum et Malorum" 
+                                (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on 
+                                the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem 
+                                ipsum dolor sit amet..", comes from a line in section.
+                            </p>
+
+                            <p class="text-gray-600 leading-relaxed mb-6">
+                                Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 
+                                45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney 
+                                College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum 
+                                passage, and going through the cites of the word in classical literature, discovered the 
+                                undoubtable source. Lorem Ipsum comes from sections 6.32 and 6.33 of "de Finibus Bonorum et Malorum" 
+                                (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on 
+                                the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem 
+                                ipsum dolor sit amet..", comes from a line in section.
+                            </p>
+                        </div>
+
+                        <!-- About the Beneficiary -->
+                        <div class="border-t pt-8">
+                            <h2 class="text-2xl font-bold text-gray-800 mb-4">About the Beneficiary</h2>
+                            <p class="text-gray-600 leading-relaxed">
+                                Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 
+                                45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney 
+                                College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum 
+                                passage, and going through the cites of the word in classical literature, discovered the 
+                                undoubtable source. Lorem Ipsum comes from sections 6.32 and 6.33 of "de Finibus Bonorum et Malorum" 
+                                (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on 
+                                the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum comes from a line in section.
+                            </p>
+                        </div>
+
+                        <!-- Contact Details -->
+                        <div class="border-t pt-8">
+                            <h2 class="text-2xl font-bold text-gray-800 mb-6">Contact Details</h2>
+                            <div class="space-y-6">
+                                <!-- Name -->
+                                <div class="flex items-center justify-between py-3 border-b border-gray-200 last:border-b-0">
+                                    <span class="text-gray-600 w-40 flex-shrink-0">Name</span>
+                                    <span class="font-medium text-gray-800 flex-1 text-left">[Name]</span>
+                                    <button class="w-8 h-8 bg-gray-600 rounded flex items-center justify-center hover:bg-gray-700 transition-colors ml-4">
+                                        <i class="fas fa-copy text-white text-xs"></i>
+                                    </button>
+                                </div>
+
+                                <!-- Contact -->
+                                <div class="flex items-center justify-between py-3 border-b border-gray-200 last:border-b-0">
+                                    <span class="text-gray-600 w-40 flex-shrink-0">Contact</span>
+                                    <span class="font-medium text-gray-800 flex-1 text-left">09123131122</span>
+                                    <button class="w-8 h-8 bg-gray-600 rounded flex items-center justify-center hover:bg-gray-700 transition-colors ml-4">
+                                        <i class="fas fa-external-link-alt text-white text-xs"></i>
+                                    </button>
+                                </div>
+
+                                <!-- Alternative Contact -->
+                                <div class="flex items-center justify-between py-3 border-b border-gray-200 last:border-b-0">
+                                    <span class="text-gray-600 w-40 flex-shrink-0">Alternative Contact</span>
+                                    <span class="font-medium text-gray-800 flex-1 text-left">09123131122</span>
+                                    <div class="w-8 h-8 ml-4"></div>
+                                </div>
+
+                                <!-- Email -->
+                                <div class="flex items-center justify-between py-3">
+                                    <span class="text-gray-600 w-40 flex-shrink-0">Email</span>
+                                    <span class="font-medium text-gray-800 flex-1 text-left">emailaccount@gmail.com</span>
+                                    <div class="w-8 h-8 ml-4"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Share Section -->
+                        <div class="border-t pt-8">
+                            <div class="flex items-center gap-4">
+                                <span class="text-gray-600 font-medium">Share:</span>
+                                <div class="flex gap-3">
+                                    <button class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-[#F4B840] hover:text-white transition-colors">
+                                        <i class="fab fa-facebook"></i>
+                                    </button>
+                                    <button class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-[#F4B840] hover:text-white transition-colors">
+                                        <i class="fab fa-instagram"></i>
+                                    </button>
+                                    <button class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-[#F4B840] hover:text-white transition-colors">
+                                        <i class="fab fa-twitter"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="lg:col-span-1">
+                    <div class="sticky top-8 space-y-6">
+                        <!-- Popular Causes -->
+                        <div class="bg-white rounded-2xl shadow-lg p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-6">Popular Causes</h3>
+                            <div class="space-y-4">
+                                <!-- Cause 1 -->
+                                <div class="border-b border-gray-200 pb-4 last:border-b-0 last:pb-0">
+                                    <h4 class="font-semibold text-gray-800 mb-2">UPCYCLED TOTE BAGS PROJECT</h4>
+                                    <button class="bg-[#F4B840] text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-orange-500 transition-colors">
+                                        Donate Now
+                                    </button>
+                                </div>
+
+                                <!-- Cause 2 -->
+                                <div class="border-b border-gray-200 pb-4 last:border-b-0 last:pb-0">
+                                    <h4 class="font-semibold text-gray-800 mb-2">UPCYCLED TOTE BAGS PROJECT</h4>
+                                    <button class="bg-[#F4B840] text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-orange-500 transition-colors">
+                                        Donate Now
+                                    </button>
+                                </div>
+
+                                <!-- Cause 3 -->
+                                <div class="border-b border-gray-200 pb-4 last:border-b-0 last:pb-0">
+                                    <h4 class="font-semibold text-gray-800 mb-2">UPCYCLED TOTE BAGS PROJECT</h4>
+                                    <button class="bg-[#F4B840] text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-orange-500 transition-colors">
+                                        Donate Now
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 text-center">
+                                <button class="text-[#F4B840] hover:underline font-medium">See more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#48583B] px-8 md:px-16 py-16 mt-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-12">
+                <div class="flex flex-col items-center lg:items-start gap-6 lg:col-span-2">
+                    <img src="./images/RetasifyLogoYellow1.png" alt="Retasify Logo" class="h-16 w-auto">
+                    <nav class="flex gap-8 text-white">
+                        <a href="#" class="hover:text-[#F4B840] transition-colors">About Us</a>
+                        <a href="#" class="hover:text-[#F4B840] transition-colors">Plans & Pricing</a>
+                        <a href="#" class="hover:text-[#F4B840] transition-colors">FAQ</a>
+                        <a href="#" class="hover:text-[#F4B840] transition-colors">Features</a>
+                    </nav>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="text-center md:text-left">
+                        <h3 class="text-white text-lg font-medium mb-4 tracking-wider">FOLLOW US</h3>
+                        <div class="flex justify-center md:justify-start gap-3">
+                            <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-[#F4B840] transition-colors">
+                                <i class="fab fa-tiktok text-[#48583B] text-lg"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-[#F4B840] transition-colors">
+                                <i class="fab fa-instagram text-[#48583B] text-lg"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-[#F4B840] transition-colors">
+                                <i class="fab fa-facebook text-[#48583B] text-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-white text-lg font-medium mb-4 tracking-wider">CONTACT</h3>
+                        <div class="text-white space-y-2">
+                            <p>info@gmail.com</p>
+                            <p>+234(8729883793)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="border-[#71777D] mb-8">
+
+            <div class="text-center">
+                <p class="text-white text-sm">© 2025 Retasify. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
