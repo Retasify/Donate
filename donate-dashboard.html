@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate For A Cause - Retasify</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+<body class="font-sans bg-[#FAF5EF] min-h-screen">
+    <!-- Header -->
+    <header class="bg-[#48583B] p-4 md:px-8 flex items-center justify-between">
+        <div class="flex items-center gap-8">
+            <img src="./images/RetasifyLogo.svg" alt="Retasify Logo" class="h-12 w-auto bg-white p-2 px-8 rounded-full ml-20">
+            
+            <nav class="hidden md:flex items-center gap-6 ml-5">
+                <a href="#" class="text-white hover:text-[#F4B840] transition-colors">Categories</a>
+                <a href="#" class="text-[#F4B840] border-b-2 border-[#F4B840] pb-1 transition-colors">Donate/Pickup</a>
+                <a href="#" class="text-white hover:text-[#F4B840] transition-colors">Upcycle</a>
+            </nav>
+        </div>
+        
+        <div class="flex-1 max-w-md mx-8 hidden md:block">
+            <div class="relative">
+                <input type="text" placeholder="Search keywords" class="w-full px-4 py-2 rounded-full border border-gray-500 focus:outline-none focus:ring-2 focus:ring-[#F4B840] bg-white">
+                <button class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div class="flex items-center gap-3">
+            <button class="p-2 text-white hover:text-[#F4B840] transition-colors">
+                <i class="fas fa-phone"></i>
+            </button>
+            <button class="p-2 text-white hover:text-[#F4B840] transition-colors">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button class="p-2 text-white hover:text-[#F4B840] transition-colors">
+                <i class="fas fa-bell"></i>
+            </button>
+            <a href="loginBuyer.html" class="bg-[#F4B840] text-white px-6 py-2 rounded-full hover:bg-orange-500 transition-colors text-sm font-medium">Sign In</a>
+            <button class="p-2 text-white hover:text-[#F4B840] transition-colors">
+                <i class="fas fa-user"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="px-8 md:px-16 py-8">
+        <div class="max-w-7xl mx-auto">
+            <!-- Hero Section -->
+            <div class="relative bg-gradient-to-r from-[#48583B]/90 to-[#48583B]/70 rounded-3xl overflow-hidden mb-12">
+                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('./images/reader.jpg'); opacity: 0.3;"></div>
+                <div class="relative z-10 px-12 py-20 text-center">
+                    <h1 class="text-5xl font-bold text-white mb-6">Donate For A Cause</h1>
+                    <p class="text-xl text-white/90 mb-4 max-w-3xl mx-auto">Give new life to your pre-loved items and support meaningful causes.</p>
+                    <p class="text-lg text-white/80 max-w-2xl mx-auto">Find a cause that matters to you and donate today.</p>
+                </div>
+            </div>
+
+            <!-- Filter and Results Section -->
+            <div class="mb-8">
+                <div class="flex items-center justify-between mb-6">
+                    <p class="text-gray-600">Showing 1-20 of 256 results</p>
+                    
+                    <div class="flex items-center gap-4">
+                        <span class="text-gray-600 font-medium">Sort:</span>
+                        <div class="flex gap-2">
+                            <button class="bg-[#F4B840] text-white px-4 py-2 rounded-full text-sm font-medium">Relevance</button>
+                            <button class="border border-gray-300 text-gray-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-50 transition-colors">Popular</button>
+                            <button class="border border-gray-300 text-gray-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-50 transition-colors">Recent</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Donation Initiatives List -->
+            <div class="space-y-6 mb-12">
+                <!-- Initiative 1 -->
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="relative md:w-80 flex-shrink-0">
+                            <img src="./images/Placeholder_img.png" alt="Rags to Rugs Initiative" class="w-full h-48 md:h-full object-cover">
+                            <div class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md">
+                                <i class="far fa-heart text-gray-400"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="flex-1 p-6 flex flex-col justify-between">
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-800 mb-3">Rags to Rugs Initiative</h3>
+                                <p class="text-gray-600 mb-4 leading-relaxed">Donations of cotton or jersey fabric pieces to be woven into durable, eco-friendly rugs for families in need. Turn old clothes into beautiful new home essentials. Join our mission to turn textile waste into comfort under someone's feet.</p>
+                                <p class="text-gray-500 mb-4">Organization</p>
+                            </div>
+                            
+                            <div class="flex justify-start">
+                                <button class="bg-[#F4B840] text-white px-8 py-3 rounded-full font-medium hover:bg-orange-500 transition-colors">
+                                    Donate Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Initiative 2 -->
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="relative md:w-80 flex-shrink-0">
+                            <img src="./images/Placeholder_img.png" alt="Rags to Rugs Initiative" class="w-full h-48 md:h-full object-cover">
+                            <div class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md">
+                                <i class="far fa-heart text-gray-400"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="flex-1 p-6 flex flex-col justify-between">
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-800 mb-3">Rags to Rugs Initiative</h3>
+                                <p class="text-gray-600 mb-4 leading-relaxed">Donations of cotton or jersey fabric pieces to be woven into durable, eco-friendly rugs for families in need. Turn old clothes into beautiful new home essentials. Join our mission to turn textile waste into comfort under someone's feet.</p>
+                                <p class="text-gray-500 mb-4">Organization</p>
+                            </div>
+                            
+                            <div class="flex justify-start">
+                                <button class="bg-[#F4B840] text-white px-8 py-3 rounded-full font-medium hover:bg-orange-500 transition-colors">
+                                    Donate Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Initiative 3 -->
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="relative md:w-80 flex-shrink-0">
+                            <img src="./images/Placeholder_img.png" alt="Rags to Rugs Initiative" class="w-full h-48 md:h-full object-cover">
+                            <div class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md">
+                                <i class="far fa-heart text-gray-400"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="flex-1 p-6 flex flex-col justify-between">
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-800 mb-3">Rags to Rugs Initiative</h3>
+                                <p class="text-gray-600 mb-4 leading-relaxed">Donations of cotton or jersey fabric pieces to be woven into durable, eco-friendly rugs for families in need. Turn old clothes into beautiful new home essentials. Join our mission to turn textile waste into comfort under someone's feet.</p>
+                                <p class="text-gray-500 mb-4">Organization</p>
+                            </div>
+                            
+                            <div class="flex justify-start">
+                                <button class="bg-[#F4B840] text-white px-8 py-3 rounded-full font-medium hover:bg-orange-500 transition-colors">
+                                    Donate Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Initiative 4 -->
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="relative md:w-80 flex-shrink-0">
+                            <img src="./images/Placeholder_img.png" alt="Rags to Rugs Initiative" class="w-full h-48 md:h-full object-cover">
+                            <div class="absolute top-4 right-4 bg-white rounded-full p-2 shadow-md">
+                                <i class="far fa-heart text-gray-400"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="flex-1 p-6 flex flex-col justify-between">
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-800 mb-3">Rags to Rugs Initiative</h3>
+                                <p class="text-gray-600 mb-4 leading-relaxed">Donations of cotton or jersey fabric pieces to be woven into durable, eco-friendly rugs for families in need. Turn old clothes into beautiful new home essentials. Join our mission to turn textile waste into comfort under someone's feet.</p>
+                                <p class="text-gray-500 mb-4">Organization</p>
+                            </div>
+                            
+                            <div class="flex justify-start">
+                                <button class="bg-[#F4B840] text-white px-8 py-3 rounded-full font-medium hover:bg-orange-500 transition-colors">
+                                    Donate Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="flex items-center justify-center gap-2 mb-8">
+                <button class="p-2 text-gray-400 hover:text-gray-600 transition-colors">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="flex gap-1">
+                    <button class="w-10 h-10 bg-[#F4B840] text-white rounded-full flex items-center justify-center font-medium">1</button>
+                    <button class="w-10 h-10 text-gray-600 rounded-full flex items-center justify-center font-medium hover:bg-gray-100 transition-colors">2</button>
+                    <button class="w-10 h-10 text-gray-600 rounded-full flex items-center justify-center font-medium hover:bg-gray-100 transition-colors">3</button>
+                    <span class="w-10 h-10 flex items-center justify-center text-gray-400">...</span>
+                    <button class="w-10 h-10 text-gray-600 rounded-full flex items-center justify-center font-medium hover:bg-gray-100 transition-colors">10</button>
+                </div>
+                
+                <button class="p-2 text-gray-600 hover:text-gray-800 transition-colors">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#48583B] px-8 md:px-16 py-16 mt-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-12">
+                <div class="flex flex-col items-center lg:items-start gap-6 lg:col-span-2">
+                    <img src="./images/RetasifyLogoYellow1.png" alt="Retasify Logo" class="h-16 w-auto">
+                    <nav class="flex gap-8 text-white">
+                        <a href="#" class="hover:text-[#F4B840] transition-colors">About Us</a>
+                        <a href="#" class="hover:text-[#F4B840] transition-colors">Plans & Pricing</a>
+                        <a href="#" class="hover:text-[#F4B840] transition-colors">FAQ</a>
+                        <a href="#" class="hover:text-[#F4B840] transition-colors">Features</a>
+                    </nav>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="text-center md:text-left">
+                        <h3 class="text-white text-lg font-medium mb-4 tracking-wider">FOLLOW US</h3>
+                        <div class="flex justify-center md:justify-start gap-3">
+                            <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-[#F4B840] transition-colors">
+                                <i class="fab fa-tiktok text-[#48583B] text-lg"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-[#F4B840] transition-colors">
+                                <i class="fab fa-instagram text-[#48583B] text-lg"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-[#F4B840] transition-colors">
+                                <i class="fab fa-facebook text-[#48583B] text-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-white text-lg font-medium mb-4 tracking-wider">CONTACT</h3>
+                        <div class="text-white space-y-2">
+                            <p>info@gmail.com</p>
+                            <p>+234(8729883793)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="border-[#71777D] mb-8">
+
+            <div class="text-center">
+                <p class="text-white text-sm">© 2025 Retasify. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
